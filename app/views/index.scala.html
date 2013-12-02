@@ -1,6 +1,7 @@
 @(message: String)
 
 @main("Home - Kidenere") {
+	<!--  
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -14,7 +15,7 @@
         </div>
       </div>
     </div>
-    
+    -->
     <div class="container">
     	<div class="row ">
     		<img class="col-md-6 col-md-offset-3" src="@routes.Assets.at("images/kidenerelogo.jpg")" alt="Kidenere Logo">
@@ -23,7 +24,7 @@
     
     <div class="container">
 	    <div class="row">
-	    	<h4 class="col-md-3 col-md-offset-5">Fulfilling your dialywish!</h4>
+	    	<h4 class="col-md-3 col-md-offset-5">Fulfilling dialywishes!</h4>
 	    </div>
     </div>
     
@@ -34,17 +35,17 @@
         <div class="col-md-4">
           <h2>Learn</h2>
           <p>What have you always wanted to learn? We can make it happen.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" role="button">More &raquo;</a></p>
         </div>
         <div class="col-md-4">
           <h2>Work</h2>
           <p>Want a job that you can do while on dialysis?</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" role="button">More &raquo;</a></p>
        </div>
         <div class="col-md-4">
           <h2>Volunteer</h2>
           <p>Have an organization you want to dedicate treatment time to?</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" role="button">More &raquo;</a></p>
         </div>
       </div>
       <br><br>
@@ -62,11 +63,18 @@
 		<div class="row">
 			<!-- Tab panes -->
 			<div class="tab-content">
-			<div class="tab-pane active col-md-4" id="aboutus">Kidenere is dedicated to alleviating the mental burden associated with
+			<div class="tab-pane active col-md-12" id="aboutus">
+			<p class="col-md-4">
+			Kidenere is dedicated to alleviating the mental burden associated with
 			 dialysis by utilizing treatment time 
 			 to help patients pursue an interest or skill they have always
 			  wanted to develop as well as create a positive, active
 			   learning environment across dialysis centers to promote good mental health
+			   </p>
+			   <div class="col-md-2"><img src="@routes.Assets.at("images/katbetter.jpg")" alt="Katrina pic"><br><strong>Katrina Rios</strong> <br> Johns Hopkins University '15 </div>
+			   <div class="col-md-2"><img src="@routes.Assets.at("images/jonbetter.jpg")" alt="Jonathan pic"><br> <strong>Jonathan Rivera</strong>  <br> Johns Hopkins University '15 </div>
+			   <div class="col-md-2"><img src="@routes.Assets.at("images/betterstef.jpg")" alt="Katrina pic"><br><strong>Stephanie Huie</strong>  <br> Johns Hopkins University '15 </div>
+			   
 			   </div>
 			 
 			  <div class="tab-pane" id="community">
